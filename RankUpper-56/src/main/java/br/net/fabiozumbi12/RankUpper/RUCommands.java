@@ -295,7 +295,6 @@ public class RUCommands {
                 .executor((src, args) -> { {
                     //no args
                     src.sendMessage(RUUtil.toText("&b---------------- "+RankUpper.get().instance().getName()+" "+RankUpper.get().instance().getVersion().get()+" ---------------"));
-                    src.sendMessage(RUUtil.toText("&bDeveloped by &6" + RankUpper.get().instance().getAuthors().get(0) + "."));
                     src.sendMessage(RUUtil.toText("&bFor more information about the commands, type [" + "&6/ru ?&b]."));
                     src.sendMessage(RUUtil.toText("&b---------------------------------------------------"));
                     return CommandResult.success();
